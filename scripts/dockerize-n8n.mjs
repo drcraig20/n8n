@@ -92,7 +92,7 @@ const config = {
 
 // #region ===== Main Build Process =====
 
-const platform = getDockerPlatform();
+const platform = "linux/amd64";
 
 async function main() {
 	echo(chalk.blue.bold('===== Docker Build for n8n ====='));
